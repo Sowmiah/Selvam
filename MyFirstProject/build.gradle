@@ -23,6 +23,12 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-websocket'
     implementation 'org.json:json:20240303'
     implementation 'com.fasterxml.jackson.core:jackson-databind'
+    implementation 'org.eclipse.jetty.websocket:websocket-client:9.4.57.v20241219'
+    implementation 'org.eclipse.jetty:jetty-util:12.0.21'
+    implementation 'org.eclipse.jetty:jetty-io:12.0.21'
+    implementation 'org.eclipse.jetty:jetty-util-ajax:12.0.21'
+    implementation 'org.slf4j:slf4j-api:2.0.17'
+
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'

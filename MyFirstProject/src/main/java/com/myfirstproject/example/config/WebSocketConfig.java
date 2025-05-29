@@ -19,8 +19,4 @@ public class WebSocketConfig {
         return new FlattradeMDPWebSocketClient();
     }
 
-    @Bean
-    public WebSocketClient webSocketClient() {
-        return new StandardWebSocketClient();
-    }
 }
